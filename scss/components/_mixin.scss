@@ -1,0 +1,8 @@
+@mixin product-container($color) {
+    box-shadow: $color_9;   
+}
+@mixin button-add ($color){
+    background-color: $color_1;
+    color: $color_9;
+    border: $background-color_7;
+}

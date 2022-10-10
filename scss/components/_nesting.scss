@@ -1,0 +1,66 @@
+header {
+    width: 100%;
+    height: 300px;
+    background: #e88300;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    .logo{
+        margin: all;
+    width:20%;
+    height: 230px;
+    float: left;
+    margin-right: 50px;
+    }
+    .h1-index{
+        font-size: 52px;
+    color: white;
+    line-height: 230px;
+    font-weight: 300px;
+    transition: all 0.3s ease;
+    margin-right: 22%;
+    }
+    .h1-index i{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .nav-index{
+        position: absolute;
+        bottom: 0;
+        height: 68px;
+        line-height: 60px;
+        width: 100%;
+        background: #e83f00cc;
+    }
+    .a-nav{
+        color: white;
+        padding: 10px 15px;
+        line-height: 1;
+        text-decoration: none;
+        border-radius: 5px;
+    } 
+    .a-nav:hover{
+        background: rgba(0,0,0,0.2);
+    }
+    #icon-menu{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 20px;
+        top: 16px;
+        padding: 10px;
+        font-size: 20px;
+        background: #eeeeeefa;
+        border-radius: 100%;
+        color: #575757;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    #icon-menu:hover{
+        opacity: 0.8;
+    }
+}
